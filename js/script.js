@@ -31,4 +31,3 @@ const validateEmail = (e) => {
 }
 
 form.addEventListener("submit", validateEmail)
-console.log("RAMA DEVELOPMENT")
