@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/davidgarcia/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R /home2/davidgarcia/repositories/Davidgarxa/extras $DEPLOYPATH
+    - /bin/cp -R /home2/davidgarcia/repositories/Davidgarxa/images $DEPLOYPATH
+    - /bin/cp -R /home2/davidgarcia/repositories/Davidgarxa/js $DEPLOYPATH
+    - /bin/cp -R /home2/davidgarcia/repositories/Davidgarxa/css $DEPLOYPATH
