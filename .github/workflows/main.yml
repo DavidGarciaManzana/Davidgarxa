@@ -11,7 +11,7 @@ jobs:
       - name: Update files
         uses: appleboy/ssh-action@master
         env:
-          DEPLOYPATH: "/var/www/davidgarxa.com/public_html/"
+          DEPLOYPATH: "/var/www/davidgarxa.com/public_html/profile-card"
         with:
           host: ${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
